@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form, div{
+    display: flex;
+    gap: 6%;
+    row-gap: 5px;
+}
+
+.form{
+    flex-wrap: wrap;
+    width: 40%;
+    min-width: 400px;
+    margin: 100px auto;
+}
+
+.form__title{
+    width: 100%;
+    background: rgb(157,41,121);
+    background: linear-gradient(90deg, rgb(189, 62, 148) 0%, rgba(17,64,147,1) 100%);
+    background-clip: text;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: transparent;
+}
+
+.form__item{
+    flex-direction: column;
+    width: 47%;
+    color: rgb(76, 0, 255);
+    border-bottom: 1px solid rgb(76, 0, 255);
+    margin-bottom: 25px;
+
+}
+
+.form__item--large{
+    width: 100%;
+}
+
+input{
+    border: none;
+    font-size: 1rem;
+}
+
+.form__submit{
+    width: 40%;
+}
+
+#submit{
+    width: 100%;
+    max-width: 200px;
+    background: rgb(157,41,121);
+    background: linear-gradient(90deg, rgb(145, 40, 112) 0%, rgba(17,64,147,1) 100%);
+    padding: 10px;
+    color: white;
+}
+
+.card{
+    justify-content: center;
+    gap: 0;
+    width: 450px;
+    height: 200px;
+    -webkit-box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 44px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+.card__profile{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    color: white;
+    background: rgb(157,41,121);
+    background: linear-gradient(90deg, rgb(218, 73, 97) 0%, rgba(17,64,147,1) 100%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card__img{
+    width: 35%;
+    margin-bottom: 20px;
+}
+
+.card__img img{
+    width: 100%;
+}
+.card__name{
+    font-weight: 600;
+}
+.card__info{
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 65%;
+    row-gap: 20px;
+    padding: 10px 20px;
+}
+
+.card__item{
+    flex-direction: column;
+    row-gap: 10px;
+    width: 60%;
+}
+
+.card__item--small{
+    width: 30%;
+}
+.card__item--large{
+    width: 100%;
+}
+.card__title{
+    width: 100%;
+    font-weight: 600;
+}
+
+.card__title--bb{
+    border-bottom: 1px solid rgb(173, 170, 170);
+}
+
+.card__text{
+    color: rgb(141, 137, 137);
+}
